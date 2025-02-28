@@ -1,0 +1,389 @@
+@media (max-width : 1218px) {
+   .imgleft{
+      display: none;
+      
+   }
+   .middle{
+      position: relative;
+      right: 2cm;
+   }
+   .containerinput{
+      position: relative;
+      left: -3cm;
+   }
+   .foter{
+      position: relative;
+      left: 1.7cm;
+   }
+   .underpara{
+      position: relative;
+      left: 1.5cm;
+   }
+   .undersec{
+      position: relative;
+      left: -3.5cm;
+   }
+   .section6{
+      gap: 0;
+   }
+  
+
+
+
+
+
+
+}
+@media (max-width: 1212px) {
+   .imgright{
+      position: relative;
+      left: 3cm;
+   }
+   
+   .foter{
+      position: relative;
+      left: cm;
+   }
+   
+   
+}
+
+
+
+
+
+
+@media (max-width:999px) {
+   .headerbar{
+   width: 100%;
+ 
+
+ }
+ 
+ 
+ 
+   inpu{
+    display: none;
+ }
+ .searchbar{
+    display: none;
+ }
+ .login{
+    display: none;
+ }
+ .talent{
+    display: none;
+ }
+ .signup{
+    background-color: transparent;
+    color: black;
+    font-size: small;
+   position: fixed;
+   left: 16cm;
+   display: none; 
+ }
+ #search{
+    position: relative;
+    left: 17.5cm;
+    display: none
+    
+ }
+ #drops{
+    display: none;
+ }
+ .undernav{
+   display: none;
+ }
+ .giveborder{
+   position: relative;
+   top: -1cm;
+ }
+ .imgright{
+   scale: .8;
+ }
+ .foter{
+   position: relative;
+   bottom: 8cm;
+ }
+ .section6{
+   flex-direction: column;
+ }
+ .section6div2{
+   width: 100%;
+ }
+ .section6div1{
+   
+   width: 100%;
+ }
+ .righth3{
+   margin: 0;
+ }
+ .section7{
+   margin-top: 6cm;
+ }
+ .burgr{
+   display: inline-block;
+}
+    
+}
+@media (max-width:791px) {
+   .foter{
+      position: relative;
+      bottom: 6cm;
+      z-index: 10;
+   }
+   
+}
+
+@media (max-width:740px) {
+   .imgright{
+      display: none;
+   }
+   /* .topimg{
+      display: inline;
+      width: 100%;
+   } */
+   .middle{
+      position: relative;
+      top: 4cm;
+      right: 17cm;
+      width: 7cm;
+      height: 4cm;
+      text-wrap: wrap;
+   }
+   h1{
+      font-size: 2rem;
+   }
+   .giveborder{
+      background-color: transparent;
+      margin-top: 1cm;
+   }
+   .secondsec{
+      width: 500px;
+      height:auto;
+      margin-top: 1cm;
+      
+
+   }
+   .middle{
+     position: relative;
+     right: 1cm;
+     display: none
+   }
+   .firstsection{
+      display: none;
+   }
+   .mobiletop{
+      display: inline-block;
+  }
+ 
+  .give50{
+   width: 100%;
+  }
+  .alsogive50{
+   width: 95%;
+   margin-left: -.5cm;
+  }
+  .sec2title{
+   font-size: 2rem;
+   margin-right: .7cm;
+  }
+  .pencil{
+   width:35px ;
+   height: 35px ;
+  }
+  
+  
+  
+}
+@media (max-width:700px){
+   .section2{
+      width: 98%;
+   }
+   .section3{
+      width: 98%;
+
+   }
+   .section4{
+      width: 98%;
+   }
+   .section6{
+      width: 98%;
+   }
+   .headsetperson{
+      width: 200px;
+      height: 200px;
+      position: relative;
+      top: -18cm;
+      left: 9cm;
+   }
+   .hovertopics{
+      display: none;
+   }
+   .mobilefooter{
+      display: inline-block;
+      margin: auto;
+   }
+   footer{
+      display: none;
+   }
+
+}
+
+
+
+
+@media (max-width:800px){
+   .imgright{
+      position: relative;
+      left: 1cm;
+   }
+}
+
+@media (max-width:806px) {
+
+   .section5grid{
+      
+      gap: 10px;
+      max-width: 100%;
+      max-height: 100%;
+   }                
+   
+}
+@media (max-width:745px){
+   .section5grid{
+      
+      position: relative;
+      top: 1.9cm;
+   }      
+
+
+}
+@media (max-width:821px){
+   .imgright{
+      position: relative;
+      left: 1cm;
+   }
+}
+@media (max-width:835px){
+   .imgright{
+      position: relative;
+      left: 1cm;
+   }
+   /* .foter{
+      position: relative;
+      bottom: 1cm;
+   } */
+    .containerinput{
+      margin-bottom: -1cm;
+    }
+   
+    .headsetperson{
+     display: none;
+    }
+    .sec5div2below{
+      position: relative;
+      bottom: 2cm;
+    }
+    .sec7button{
+      position: relative;
+      bottom: 1cm;
+    }
+   
+
+}
+@media (max-width:850px){
+   .section2{
+      flex-direction: column;
+      /* margin-left: -.3cm; */
+      
+     }
+     .give50{
+      width: 100%;
+      height: auto;
+     }
+     .alsogive50{
+      width: 100%;
+      
+     }
+
+
+}
+
+
+
+@media (max-width:500px){
+   .section3header{
+      font-size: 1.5rem;
+   }
+   .headingofsecondsection{
+      font-size: 1.5rem;
+   }
+   .headsetperson{
+      display: none;
+   }
+   .sec6underheaderall{
+      margin: .5cm;
+      padding: 0;
+
+   }
+   .righth3{
+      margin: 0;
+      padding: .5cm;
+   }
+   .section7{
+      flex-direction: column;
+   }
+   .sec7div1{
+      width: 100%;
+      height: 450px;
+   }
+   .sec7div2{
+      width: 100%;
+   }
+   
+}
+@media (max-width:462px){
+   .sec5info{
+      width: 100%;
+      padding: none;
+      margin: none;
+      
+   }
+}
+
+
+@media (max-width:322px){
+   .section3{
+      position: relative;
+      top: 5cm;
+
+   }
+   .alsogive50{
+      width: 90%;
+   }
+   .section4{
+      position: relative;
+      top: 2cm;
+   }
+}
+@media (max-width:700px){
+   .weelchairguy{
+      width: 90%;
+      /* border: red solid thick; */
+  }
+  .leftside{
+      width: 94.8%;
+      border-radius: 0;
+      
+  }
+  .sec4flex{
+   flex-direction: column-reverse;
+  }
+  .weelchairimg{
+   width: 105%;
+   border-radius: 0;
+  }
+}
+
+

@@ -1,0 +1,102 @@
+@media (max-width:1000px) {
+    .sec1flex{
+        flex-direction: column-reverse;
+    }
+    .sec1left{
+        width: 100%;
+    }
+    .sec1right{
+        width: 100%;
+    }
+    .imagespam{
+        max-width: 100%;
+        max-height: 100%;
+        flex-wrap: wrap;
+        gap: 1cm;
+    }
+    #drops{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .signup{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .searchbar{
+        display: none;
+    }
+    .talent{
+        display: none;
+    }
+    .undernav{
+        display: none;
+    }
+    .sec1head br{
+            display: none;
+          
+        }
+    .sec1head{
+        font-size: 2rem;
+    }
+    .burgr{
+        display: inline-block;
+     }
+     .sec2flex{
+        flex-direction: column-reverse;
+     }
+     .sec2div1{
+        width: 100%;
+        display: block;
+     }
+     .sec2div2{
+        width: 100%;
+        display: block;
+     }
+     .sec3flex{
+        flex-direction: column;
+     }
+     .sec4flex{
+        flex-direction: column-reverse;
+     }
+     .sec4div1{
+        width: 100%;
+     }
+     .sec4div2{
+        width: 100%;
+     }
+     .sec5flex{
+         flex-direction: column;
+     }
+     .underthird{
+        padding-top: .5cm;
+     }
+     .sec6flex{
+        flex-direction: column;
+     }
+     .sec7flex{
+        flex-direction: column-reverse;
+     }
+     .sec7div1{
+        width: 100%;
+        margin-top: -2cm;
+     }
+     .sec7div2{
+        width: 100%;
+     }
+     .sec8flex{
+        flex-direction: column;
+     }
+     .sharedsec1{
+        width: 100%;
+     }
+     .sharedsec2{
+        width: 100%;
+     }
+
+
+
+}

@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.headerbar{
+    border: thin solid black;
+    box-shadow: red 240px ;
+    height: 3.8em;
+    border-color: rgba(128, 128, 128, 0.425);
+    box-sizing: border-box;
+    width: 100% !important;
+    border-left: none;
+    border-right: none;
+    flex-wrap: wrap;
+    background-color: white;
+    
+    
+}
+.logo{
+    width: 85px;
+    height: 23px;
+    margin-left:.5cm ;
+    margin-top: .4cm;
+}
+.searchbar{
+    height: 1cm;
+    width: 8cm;
+    border: thin solid rgb(236, 235, 235);
+    border-radius: 30px;
+    border-width: 2px;
+    
+}
+.searchbar:hover{
+    background-color: rgb(248, 248, 248);
+    transition-duration: .4s;
+}
+.searchbar:hover ~.talent{
+    background-color: rgb(224, 224, 224);
+    transition-duration: .4s;
+    border-top-left-radius:27px ;
+    border-bottom-left-radius:27px ;
+}
+
+
+input:active{
+    border: thin solid rgb(248, 248, 248) ;
+}
+.login{
+    border-radius: 12px;
+    width: 2.6cm;
+    height: 1.1cm;
+    background-color: transparent;
+    border: none;
+   
+    
+}
+.signup{
+    border-radius: 12px;
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    
+    background-color: #108A00;
+    color: white;
+}
+.signup:hover{
+    background-color: #15a801;
+}
+.everight{
+    position: relative;
+    left: 2.7cm;
+    top: 0.2cm;
+}
+#drops{
+    position: relative;
+    left: 1cm;
+    
+}
+#btnedit:hover{
+    color: rgb(2, 196, 2);
+}
+#btnedit{
+    background-color: transparent;
+    position: relative;
+    top: .2cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 6px;
+}
+#btnedit:hover ~.dropdown-toggle{
+    transform: scale(400px);
+}
+
+#search{
+    position: relative;
+    right: 7.7cm;
+    top: .28cm;
+}
+.talent{
+    width: 2cm;
+    height: 1cm;
+    border: thin solid rgb(236, 235, 235);
+    position: absolute;
+    left: 6cm;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 3;
+}
+.cc{
+    position: relative;
+    right: 1.2cm;
+    bottom: .2cm;
+}
+
+.smallpics{
+    width: .7cm;
+    height: .7cm;
+}
+
+/* under nav */
+
+
+
+.undernav , li{
+    /* display: flex; */
+    color: black;
+    list-style-type: none;
+    display: inline ;
+    padding: .1cm;
+    padding-left: .4cm;
+    font-size: .9rem;   
+}
+.undernav , li , a{
+    color: black;
+}
+.undernav , li:hover{
+    color: rgb(2, 196, 2);
+}
+.undernav{
+    
+    width: 100%;
+    height: auto;
+    
+}
+
+#more{
+    background-color: transparent;
+    position: relative;
+    bottom: .15cm;
+    right: .4cm;
+    /* font-weight: 500; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.burgr{
+    display: none;
+}
+
+/* section 1 */
+
+
+.section1{
+    width: 95%;
+    margin: auto;
+}
+.sec1flex{
+    display: flex;
+    gap: 1cm;
+}
+.sec1left{
+    width: 45%;
+    /* border: red solid thick; */
+}
+.sec1right{
+    width: 50%;
+    /* border: green solid thick; */
+}
+.writeandtransimg{
+    width: 100%;
+}
+.sec1head{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.getstarted{
+    background-color: rgb(0, 163, 0) ;
+    color: white;
+    width: 76%;
+    border-radius: 10px;
+    padding: .35cm;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1cm;
+    border: none;
+}
+.imagespam{
+    display: flex;
+    gap: 3cm;
+    margin-top: 1cm;
+   
+}
+.companies{
+    width: 123px ;
+    height: 35px;
+}
+
+
+
+
+/* section2 */
+
+.section2{
+    background-color: #f9f9f9;
+    margin-top: 2cm;
+}
+
+
+.section2div{
+    width: 95%;
+    margin: auto;
+    padding-top: 1.5cm;
+}
+.sec2head{
+    font-size: 3rem;
+}
+.firstgridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1cm;
+
+
+}
+.griditem{
+    background-color: #f9f9f9;
+    padding: 20px;
+   
+}
+
+.griditem:nth-child(2){
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.secondgridcontainer{
+    margin-top: 1cm;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+}
+.griditem2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: black solid 2000px;
+   
+}
+a{
+    text-decoration: none;
+}
+.gridimg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: static;
+    vertical-align: middle;
+    width: 32px ;
+    height: 32px ;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+.arrowhead{
+    position: relative;
+    left: 3cm;
+
+    
+}
+.seemoreskills{
+    background-color: white ;
+    color: #15a801;
+    border: #15a801  solid ;
+    border-radius: 12px;
+    width: 7cm;
+    padding: .4cm;
+    margin-top: 1cm;
+}
+
+
+

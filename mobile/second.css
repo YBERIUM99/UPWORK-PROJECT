@@ -92,12 +92,43 @@
         footer{
             display: none;
         }
+
+        /* mobile stuff */
+        
         .mobilefooter{
             display: inline-block;
         }
+        .mobilefoothead{
+            margin-left: -1.5cm;
+           }
+           .socialsflex{
+            flex-direction: column;
+            gap: .5cm;
+            margin-left: 2cm;
+            padding: 0;
+            /* border: red thick solid; */
+            width: 70%;
+           }
+           .mobilefoothead{
+            margin-left: -1cm;
+            gap: 0;
+            /* border: greenyellow thick solid; */
+           }
+           .lastlinksbottom{
+            gap: 1cm;
+            margin-left: 1cm;
+           }
+
+          
+
+
         .placema{
             margin: auto;
             width: 95%;
+        }
+        .sec6header{
+            /* border: red solid thick; */
+             width: 200%;
         }
     
     
@@ -118,6 +149,18 @@
         grid-auto-flow: column;
         white-space: nowrap;
     }
+    .section6flex{
+       min-width: 295px;
+       overflow: hidden;
+    }
+}
+
+@media (max-width:550px) {
+
+    .sec2head{
+        font-size: 1.8rem;
+    }
+    
 }
 
 

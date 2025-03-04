@@ -27,6 +27,7 @@ body{
     height: 23px;
     margin-left:.5cm ;
     margin-top: .4cm;
+    filter: brightness(500%) invert(1);
 }
 .searchbar{
     height: 1cm;
@@ -591,7 +592,7 @@ input:active{
 }
 .sec9firstscroll2{
     display: flex;
-    border: grey solid thin;
+    /* border: grey solid thin; */
     width: 40vw;
     height: auto;
     border-radius: 20px;
@@ -609,7 +610,7 @@ input:active{
 
 
 .girlieside{
-    /* border: greenyellow solid thin; */
+    border: red solid thin;
     width: 50%;
     height: 100%;
    
@@ -753,13 +754,48 @@ footer{
 .socialsflex{
     display: flex;
     gap: 15cm;
+   
 }
 .lastlinksbottom{
     display: flex;
     gap: 4cm;
     padding-top: .5cm;
     padding-bottom: .5cm;
+    /* background-color: red; */
 }
+
+
+
+/* mobile */
+
+.mobilefooter{    
+    display: none;  
+    /* border: red solid thick;  */
+}
+
+
+.mfotter{
+    width: 95%; 
+    margin: auto;
+    margin-top: 2cm;
+    color: white;
+    display: none;
+}
+
+.accordion-item{
+    background-color: #181818;
+    padding: 1cm;
+    border-radius: 10px;
+}
+.accordion-button{
+    background-color: #181818;
+}
+
+.accordion-button::after{
+    background-color: white;
+}
+
+
 
 
 

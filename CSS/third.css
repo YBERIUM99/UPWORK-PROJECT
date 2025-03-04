@@ -324,6 +324,10 @@ a{
     padding: .4cm;
     margin-top: 1cm;
 }
+
+/* section 5 */
+
+
 .section5{
     width: 95%;
     margin: auto;
@@ -497,6 +501,23 @@ footer{
     display: none;
 }
 
+
+.mfotter{
+    width: 100%; 
+   display: none;
+    margin-left: .055cm;
+    margin-top: 2cm;
+    color: white;
+    
+    /* border: red solid thick; */
+}
+.mobilefooterx{
+    /* display: none; */
+    width: 100%;
+    margin: auto;
+    background-color: #181818;
+    /* border: greenyellow solid thick; */
+}
 
 
 

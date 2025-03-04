@@ -373,6 +373,7 @@ a{
     background-color: #f9f9f9;
     border-radius: 18px;
     padding: 1cm;
+   
 }
 .sec6div1{
     /* border: red solid thick; */
@@ -451,6 +452,7 @@ footer{
     gap: 4cm;
     padding-top: .5cm;
     padding-bottom: .5cm;
+    padding: .5cm;
 }
 /* mobile FOOTER */
 
@@ -460,6 +462,8 @@ footer{
     margin-top: 2cm;
     display: none;
 }
+
+
 .accordion-item{
     background-color: #181818;
     padding: 1cm;
@@ -472,6 +476,8 @@ footer{
 .accordion-button::after{
     background-color: white;
 }
+
+
 .blankbottom{
     width: 95%;
     margin: auto;
@@ -512,6 +518,24 @@ footer{
 .burgr{
     display: none;
 }
+
+
+/* mobile */
+
+.mobilefooter{    
+    display: none;  
+    /* border: red solid thick;  */
+    width: 100%; 
+}
+
+
+.mfotter{
+    width: 100%; 
+    margin: auto;
+    margin-top: 2cm;
+    color: white;
+}
+
 
 
 

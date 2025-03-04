@@ -70,6 +70,7 @@
      }
      .sec5flex{
          flex-direction: column;
+         gap: 3cm;
      }
      .underthird{
         padding-top: .5cm;
@@ -100,3 +101,114 @@
 
 
 }
+
+@media (max-width:800px){
+   footer{
+      display: none;
+   }
+   .nicepeople{
+      width: 98%;
+   }
+   .girlie{
+      display: none;
+   }
+   .girlieside{
+      display: none;
+   }
+   /* .underscoller1{
+      background-color: red;
+      white-space: nowrap;
+      display: none;
+   }
+   .underscoller2{
+      background-color: red;
+      white-space: nowrap;
+      display: none;
+   } */
+}
+
+@media (max-width:880px){
+   .sec9firstscroll{
+      height: auto;
+      min-width: 350px;
+
+   }
+
+}
+
+@media (max-width:700px){
+     /* mobile stuff */
+        
+     .mobilefooter{
+      display: inline-block;
+  }
+  .mobilefoothead{
+      margin-left: -1.5cm;
+     }
+     .socialsflex{
+      flex-direction: column;
+      gap: .5cm;
+      margin-left: 2cm;
+      padding: 0;
+      /* border: red thick solid; */
+      width: 70%;
+     }
+     .mobilefoothead{
+      margin-left: -1cm;
+      gap: 0;
+      /* border: greenyellow thick solid; */
+     }
+     .lastlinksbottom{
+      gap: 1cm;
+      margin-left: 1cm;
+     }
+
+    
+
+
+  .placema{
+      margin: auto;
+      width: 95%;
+  }
+
+
+
+  .mfotter{
+  
+   display: inline-block;
+}
+
+.mobilefooter{
+   display: inline-block;
+}
+.mobilefoothead{
+   margin-left: -1.5cm;
+  }
+  .socialsflex{
+   flex-direction: column;
+   gap: .5cm;
+   margin-left: 2cm;
+   padding: 0;
+   /* border: red thick solid; */
+   width: 70%;
+  }
+  .mobilefoothead{
+   margin-left: -1cm;
+   gap: 0;
+   /* border: greenyellow thick solid; */
+  }
+  .lastlinksbottom{
+   gap: 1cm;
+   margin-left: 4cm;
+   padding: 0.5cm;
+   margin-top: .4cm;
+   display: inline-block;
+  }
+}
+
+
+
+
+
+
+

@@ -288,3 +288,294 @@ a{
 
 
 
+/* section 3 */
+
+.section3{
+    width: 95%;
+    margin: auto;
+    margin-top: 1cm;
+
+}
+.sec3flex{
+    display: flex;
+    gap: .5cm;
+    /* border: red solid thick; */
+}
+.sec3div1{
+    /* border: #15a801 solid thick; */
+    width: 47%;
+    padding-top: 2cm;
+}
+.sec3div2{
+    /* border: red solid thick; */
+    width: 50%;
+    
+}
+.laptop{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    /* border: green solid thick; */
+}
+.btnlike{
+    
+    border-radius: 20px;
+    padding: .2cm;
+    display: inline-block;
+    background-color: rgb(233, 233, 233);
+    color: rgb(70, 70, 70);
+}
+.Browseprojects{
+    background-color: white ;
+    color: #15a801;
+    border: #15a801  solid ;
+    border-radius: 12px;
+    width: 7cm;
+    padding: .4cm;
+    margin-top: 1cm;
+}
+
+
+/* section 4 */
+
+.section4{
+    width: 95%;
+    margin: auto;
+    margin-top: 1cm;
+
+}
+.sec4flex{
+    display: flex;
+}
+.sec4div1{
+    /* border: #15a801 solid thick; */
+    width: 50%;
+    padding-top: 2cm;
+}
+.sec4div2{
+    /* border: red solid thick; */
+    width: 50%;
+    
+}
+.laptop{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.btnlike{
+    
+    border-radius: 20px;
+    padding: .2cm;
+    display: inline-block;
+    background-color: rgb(233, 233, 233);
+    color: rgb(70, 70, 70);
+}
+.Browseprojects{
+    background-color: white ;
+    color: #15a801;
+    border: #15a801  solid ;
+    border-radius: 12px;
+    width: 7cm;
+    padding: .4cm;
+    margin-top: 1cm;
+}
+/* section 5 */
+
+
+.section5{
+    width: 95%;
+    margin: auto;
+    margin-top: 2cm;
+}
+.sec5div{
+    display: flex;
+    gap: 1cm;
+}
+.sec5div1{
+    width: 45%;
+    /* border: red solid thin; */
+}
+.sec5div2{
+    width: 50%;
+    /* border: green solid thin; */
+    padding-top: 3cm;
+}
+.twopeople{
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+/* another section */
+
+.section6{
+    width: 95%;
+    margin: auto;
+    margin-top: 2cm;
+
+}
+.section6flex{
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 18px;
+    padding: 1cm;
+   
+}
+
+.sec6h1{
+    width: 91%;
+}
+.sec6div1{
+    /* border: red solid thick; */
+    width: 100%;
+}
+.sec6div2{
+    /* border: red solid thick; */
+    width: 100%;
+}
+
+
+/* another section */
+
+.section7{
+    width: 95%;
+    margin: auto;
+    margin-top: 2cm;
+}
+/* .sec7gridcontainer{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 10px;
+    
+
+}
+.sec7griditem{
+    background-color: green;
+    padding: 20px;
+} */
+.sec7linkspam{
+    display: flex;
+    gap: 4cm;
+    margin-top:1cm;
+    margin-left: 1cm;
+}
+.sec7second{
+    margin-top: 1cm;
+}
+.sec7flexi{
+    display: flex;
+    gap: 4cm;
+    margin-left: 1cm;
+    margin-top: 1cm;
+}
+footer{
+    width: 95%;
+    margin: auto;
+    margin-top: 2cm;
+    background-color: #181818;
+    border-radius: 10px;
+
+}.footerflex{
+    display: flex;
+    gap: 3cm;
+    padding: 1cm;
+    color: white;
+}
+.footlink{
+    color: white;
+}
+.socials{
+    width: 40px;
+    height: 40px;
+    filter: brightness(9700%) saturate(0) ;
+    padding-left: .5cm;
+   
+}
+.socialsflex{
+    display: flex;
+    gap: 15cm;
+}
+.lastlinksbottom{
+    display: flex;
+    gap: 4cm;
+    padding-top: .5cm;
+    padding-bottom: .5cm;
+}
+
+
+
+
+/* grid in burger */
+
+.burger{
+    display: inline;
+    z-index: 400;
+}
+.gridinburgercontainer{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 10px;
+    background-color: white;
+}
+.gridinburger{
+   
+    padding: 20px;
+    color: black;
+    border-radius: 12px;
+    border: thin solid black;
+
+}
+.signupburger{
+    background-color: #15a801;
+    width: 95%;
+    margin: auto;
+    padding: .3cm;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 6cm;
+}
+.btn-dropdown{
+    background-color: white;
+}
+.burgr{
+    display: none;
+}
+
+
+
+/* mobile */
+
+.mobilefooter{    
+    display: none;  
+    /* border: red solid thick;  */
+    width: 100%; 
+}
+
+
+.mfotter{
+    width: 100%; 
+    margin: auto;
+    margin-top: 2cm;
+    color: white;
+    display: none;
+}
+
+.accordion-item{
+    background-color: #181818;
+    padding: 1cm;
+    border-radius: 10px;
+}
+.accordion-button{
+    background-color: #181818;
+}
+
+.accordion-button::after{
+    background-color: white;
+}
+
+
+
+
+
+

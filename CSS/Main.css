@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+#ddmenu{
+  padding-right: 15cm;
+  
+   
+    
+}
+
+#drops{
+    /* background-color: red; */
+    padding-bottom: .7cm;
+    
+   
+}
 
 .headerbar{
     border: thin solid black;
@@ -17,12 +30,17 @@
     background-color: white;
     
     
+    
 }
 .logo{
     width: 85px;
     height: 23px;
     margin-left:.5cm ;
     margin-top: .4cm;
+}
+.bugr{
+    display: none;
+
 }
 .searchbar{
     height: 1cm;
@@ -894,8 +912,25 @@ footer{
     color: black;
     border-radius: 12px;
     border: thin solid black;
+    height: 100px;
 
 }
+.gridinburger:hover{
+    background-color: rgb(175, 175, 175);
+   
+    
+
+}
+
+#mainviewcontainer{
+    position: relative;
+    bottom: 9cm;
+    left: 13cm;
+    width: 300px;
+}
+
+
+
 .signupburger{
     background-color: #15a801;
     width: 95%;
@@ -913,6 +948,22 @@ footer{
     display: none;
 }
 
+.indropcontainer{
+    border:rgb(131, 131, 131) solid .2px;
+    width: 460px;
+    height: 600px;
+    position: relative;
+    left: 7.5cm;
+    bottom: 9cm;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.dropstuff{
+    position: relative;
+    left: 14cm;
+    bottom: 26cm;
+}
 
 
 

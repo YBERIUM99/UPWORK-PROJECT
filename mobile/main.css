@@ -59,86 +59,82 @@
 
 @media (max-width:999px) {
    .headerbar{
-   width: 100%;
- 
+      width: 100%;
+   }
 
- }
- 
- 
- 
-   inpu{
-    display: none;
- }
- .searchbar{
-    display: none;
- }
- .login{
-    display: none;
- }
- .talent{
-    display: none;
- }
- .signup{
-    background-color: transparent;
-    color: black;
-    font-size: small;
-   position: fixed;
-   left: 16cm;
-   display: none; 
- }
- #search{
-    position: relative;
-    left: 17.5cm;
-    display: none
-    
- }
- #drops{
-    display: none;
- }
- .undernav{
-   display: none;
- }
- .giveborder{
-   position: relative;
-   top: -1cm;
- }
- .imgright{
-   scale: .8;
- }
- .foter{
-   position: relative;
-   bottom: 8cm;
- }
- .section6{
-   flex-direction: column;
- }
- .section6div2{
-   width: 100%;
- }
- .section6div1{
-   
-   width: 100%;
- }
- .righth3{
-   margin: 0;
- }
- .section7{
-   margin-top: 6cm;
- }
- .burgr{
-   display: inline-block;
-}
-.section3{
-   margin-top: 4cm;
-}
-.sankaran{
-   display: none;
-}
-.overflow3{
-   margin-right: 6cm;  
-}
+   .bugr{
+      display: block;
+   }
 
-    
+   input{         /* <-- Fixed typo here */
+      display: none;
+   }
+   .searchbar{
+      display: none;
+   }
+   .login{
+      display: none;
+   }
+   .talent{
+      display: none;
+   }
+   .signup{
+      background-color: transparent;
+      color: black;
+      font-size: small;
+      position: fixed;
+      left: 16cm;
+      display: none; 
+   }
+   #search{
+      position: relative;
+      left: 17.5cm;
+      display: none
+   }
+   #drops{
+      display: none;
+   }
+   .undernav{
+      display: none;
+   }
+   .giveborder{
+      position: relative;
+      top: -1cm;
+   }
+   .imgright{
+      scale: .8;
+   }
+   .foter{
+      position: relative;
+      bottom: 8cm;
+   }
+   .section6{
+      flex-direction: column;
+   }
+   .section6div2{
+      width: 100%;
+   }
+   .section6div1{
+      width: 100%;
+   }
+   .righth3{
+      margin: 0;
+   }
+   .section7{
+      margin-top: 6cm;
+   }
+   .burgr{
+      display: inline-block;
+   }
+   .section3{
+      margin-top: 4cm;
+   }
+   .sankaran{
+      display: none;
+   }
+   .overflow3{
+      margin-right: 6cm;  
+   }
 }
 @media (max-width:791px) {
    .foter{
